@@ -36,5 +36,26 @@ public class FxmlHomeController implements Initializable {
   private void bntLogOffMouseClickedHandler(MouseEvent event) {
     System.out.println("You clicked the logoff button!");
   }
+
+  @FXML
+  private void boardMouseClicked(MouseEvent event) {
+    System.out.println("You clicked a button!");
+    Button b = (Button) event.getSource();
+    String currentMark = b.getText();
+    String newMark = null;
+
+    switch (currentMark) {
+      case " ":
+        newMark = "X";
+        break;
+      case "X":
+        newMark = "O";
+        break;
+      case "O":
+        newMark = " ";
+        break;
+    }
+    b.setText(newMark);
+  }
   
 }
