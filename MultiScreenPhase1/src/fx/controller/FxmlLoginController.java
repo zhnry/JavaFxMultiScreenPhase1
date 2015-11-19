@@ -23,10 +23,6 @@ public class FxmlLoginController implements Initializable {
   @FXML
   private Button btnLogin;
   
-  private void handleButtonAction(ActionEvent event) {
-    System.out.println("You clicked me!");
-  }
-  
   @Override
   public void initialize(URL url, ResourceBundle rb) {
     // TODO
@@ -34,6 +30,7 @@ public class FxmlLoginController implements Initializable {
 
   @FXML
   private void bthLoginMouseClickedHandler(MouseEvent event) {
+    System.out.println("You clicked the login button!");
   }
   
 }
