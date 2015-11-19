@@ -29,7 +29,7 @@ public class FxmlLoginController implements Initializable {
   }  
 
   @FXML
-  private void bthLoginMouseClickedHandler(MouseEvent event) {
+  private void btnLoginMouseClickedHandler(MouseEvent event) {
     System.out.println("You clicked the login button!");
   }
   
