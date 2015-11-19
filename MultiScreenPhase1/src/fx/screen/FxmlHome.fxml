@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.51" fx:controller="fx.controller.FxmlHomeController">
+   <children>
+      <Label fx:id="lblName" alignment="CENTER_RIGHT" layoutX="464.0" layoutY="14.0" prefHeight="17.0" prefWidth="175.0" text="Welcome, " />
+      <Button fx:id="btnLogOff" layoutX="570.0" layoutY="38.0" mnemonicParsing="false" onMouseClicked="#bntLogOffMouseClickedHandler" text="Log Off" />
+   </children>
+</AnchorPane>
